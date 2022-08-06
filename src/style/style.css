@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    list-style-type: none;
+}
+
+/* BOTOES*/
+
+.abraConta{
+    background-color: #FFC04A ;
+    border: 3px solid #FFC04A;
+    color: #1D2F8A;
+    display: inline-block;
+    width: 336px;
+    padding: 16px 24px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+ }
+
+ .abraConta:hover{
+    background-color: #1D2F8A;
+    border: 3px solid #1D2F8A;
+    color: #FFC04A;
+    transition: 0.3s;
+ }
+
+ .perguntas{
+    border: #FFC04A solid 3px;
+    color: #1D2F8A;
+    display: inline-block;
+    width: 336px;
+    padding: 16px 24px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}
+
+.perguntas:hover{
+    background-color: #1D2F8A;
+    border: 3px solid #1D2F8A;
+    color: #FFC04A;
+    transition: 0.3s;
+}
+/* BOTOES DO FINAL DA PAGINA*/
+.botoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+    width: 513px;
+    height: 188px;
+}
+
+ /* BODY */
+
+body{
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ /* HEADER */
+
+header{
+    background-color: #4864c0;
+    max-height: 200px;
+}
+
+.logobemol{
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+    margin: 40px 0px 40px 140px;
+}
+
+ /* PRIMEIRA SEÇÃO */
+
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 1143px;
+    height: 699px;
+    margin: 70px auto;
+    
+}
+
+ .section1 h1{
+    color: #1D2F8A;
+    width: 468px;
+    height: 201px;
+    font-size: 61px;
+    font-weight: 700;
+    line-height: 110%;
+    
+ }
+
+ .section1 p{
+    color:#1D2F8A;
+    width: 468px;
+    height: 66px;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px 0px 19px;
+    margin-right: 61px;
+ }
+
+ .celular{
+    margin: 20px auto;
+    width: 264px;
+ }
+
+ /* SEGUNDA SEÇÃO*/
+
+.section2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1143px;
+    height: 699px;
+    margin: 70px auto;
+}
+
+ .section2 h6{
+    color: #1D2F8A;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 130%;
+    width: 500px;
+    height: 52px;
+    margin-left: 53px;
+ }
+
+ .beneficios{
+    display: flex;
+    justify-content: center;
+ }
+
+ .donaregina{
+    width: 570px;
+    height: 570px;
+ }
+
+.vantagem{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 476px;
+    height: 655px;
+ }
+
+ .minicard{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 220px;
+    margin: 5px auto;
+ }
+
+ .minicard img{
+    margin: 5px auto;
+    width: 150px;
+    height: 150px;
+ }
+
+ .minicard span{
+    display: block;
+    color: #1D2F8A;
+    font-size: 16px;
+    text-align: center;
+    width: 218px;
+    height: 42px;
+    font-weight: 700;
+    line-height: 133%
+ }
+
+ /* TERCEIRA SEÇÃO*/
+
+ .section3{
+    background-color: #4864C0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1120px;
+    height: 461px;
+    border-radius: 70px;
+    margin: 70px auto;
+    box-shadow: 31px -33px 150px 40px rgba(0, 0, 0, 0.12);
+}
+
+ .section3 p{
+    font-size: 16px;
+    color: white;
+    margin-bottom: 79px;
+ }
+
+ .section3 span{
+    font-weight: bold;
+ }
+
+  /* QUARTA SEÇÃO*/
+
+ .section4{
+    height:600px ;
+    width: 1120px;
+    margin: 70px auto;
+ }
+
+   /* QUINTA SEÇÃO*/
+
+.section5{
+    display: flex;
+    align-items: center;
+    width: 1143px;
+    height: 468px;
+    margin: 70px auto;
+}
+
+.section5 h3{
+    color: #1D2F8A;
+    font-size: 61px;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+.calculadora{
+    width: 426px;
+    height: 300px;
+    margin: 42px 0 0 30px;
+}
+
+.valor{
+    display: flex;
+    flex-direction: column;
+}
+
+.valor label{
+    color: black;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.valor span{
+    color: #0A102E;
+    font-size: 12px;
+    margin-top: 18px;
+}
+
+.valor Input{
+    color: #1D2F8A;
+    font-weight: 400;
+    border-bottom: #1D2F8A solid;
+    font-size: 40px;
+
+}
+.tempo{
+    display: flex;
+    flex-direction: column;
+
+}
+.tempo label{
+    color: #000000;
+    font-size: 20px;
+    margin-top: 28px;
+}
+.tempo span{
+    color: #1D2F8A;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.simulatorButton{
+    background-color: white;
+    color: #1D2F8A;
+    width: 95px;
+    height: 29px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 29px;
+    border-radius: 10px;
+    border:#FFC04A solid 3px;
+    cursor: pointer;
+}
+.simulatorButton:hover{
+    text-decoration-line: underline;
+}
+
+.bonuscalculadora{
+    background-color: #4864C0;
+    width: 434px;
+    height: 307px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 4px;
+}
+.estrelaNumero span{
+    margin-left: 176px;
+}
+
+.estrelinhasMeses span{
+    margin-left: 173px;
+}
+
+#pontosConquistadosDia{
+    font-size: 48px;
+    font-weight: 700;
+}
+.bonuscalculadora span{
+    color: white;
+    font-size: 12px;
+}
+
+.pontosDeBonus{
+    border-top: 2px solid #FFFFFF;
+}
+
+#pontosConquistadosMes{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+   /* SEXTA SEÇÃO*/
+
+.section6{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1140px;
+    height: 188px;
+    margin: 70px auto;
+}
+
+.section6 h3{
+    color: #1D2F8A;
+    font-size: 39px;
+    font-weight: 700;
+    width: 607px;
+    height: 153px;
+}
+
+/*RODAPE*/
+
+footer{
+    background-color: #4864C0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 45px 45px 0 0;
+    height: 180px;
+    margin-top: 117px;
+}
+
+.imgredes{
+    width: 289px;
+    height: 96px;
+}
+
+.imgconta{
+    width: 590px;
+    height: 102px;
+}
